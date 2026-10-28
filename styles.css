@@ -1,3 +1,4 @@
+/* Caja de presentación */
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
@@ -7,17 +8,44 @@ body {
 h1 {
   color: #2c3e50;
   font-size: 40px;
+  margin-bottom: 10px;
 }
 
 h2 {
   color: #2980b9;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 p {
   color: #555;
   font-size: 18px;
+  margin-bottom: 8px;
+  padding: 8px;
 }
 
 a {
   color: #e74c3c;
+  padding: 8px 16px;
+  border: 2px solid #e74c3c;
+  border-radius: 6px;
+}
+
+ol {
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+  padding: 4px 0;
+}
+#titulo-principal {
+  text-align: center;
+  border-bottom: 3px solid #2980b9;
+  padding-bottom: 10px;
+}.boton {
+  background-color: #e74c3c;
+  color: white;
+  text-decoration: none;
 }
