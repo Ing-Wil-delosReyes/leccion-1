@@ -12,10 +12,8 @@ const diasPorSemana = 7;
 const inicioDelPlan = new Date(2026, 9, 1); // 1 de octubre de 2026
 const hoy = new Date();
 const msPorDia = 1000 * 60 * 60 * 24;
-const diasEstudiando = Math.floor(
-  (hoy - inicioDelPlan) / (1000 * 60 * 60 * 24),
-);
-semanasEstudiando = diasEstudiando / diasPorSemana;
+const diasEstudiando = Math.floor((hoy - inicioDelPlan) / msPorDia);
+const semanasEstudiando = diasEstudiando / diasPorSemana;
 console.log(ciudad);
 console.log(semanasEstudiando);
 const profesion = "Ingeniero Mecanico";
