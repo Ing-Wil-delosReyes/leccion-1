@@ -1,4 +1,6 @@
-/* Caja de presentación */
+*{
+  box-sizing: boder-box;
+}/* Caja de presentación */
 body {
   background-color: #f0f0f0;
   font-family: Arial, sans-serif;
@@ -56,13 +58,19 @@ li {
   display: flex;
   gap: 20px;
   justify-content:Center;
-  flex-direction: column;
+  flex-direction: row;
 }
 .tarjeta {
   background-color: white;
-  padding: 8px 16px;
+  padding: 20px;
   border: 2px solid #2980b9;
   border-radius: 8px;
+  width: 150px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
 }
 .herramientas {
   color: #27ae60;
